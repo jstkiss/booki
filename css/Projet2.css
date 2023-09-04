@@ -1,0 +1,502 @@
+html,body{
+    font-family: Raleway;
+}
+/* 
+~~~~~~~~~~~~
+GENERAL
+~~~~~~~~~~~~ 
+*/
+
+.bg-black {
+    background-color: black;
+}
+
+.txt-white {
+    color: white;
+}
+.flexcentre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexmarge{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flexg{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.flexd{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.flexbtw{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexbox{
+    display: flex;
+}
+.fas.fa-star.active {
+    color: #0065FC;
+    font-size: 15px;
+}
+
+.fas.fa-star{
+    color: #F2F2F2;
+    font-size: 15px;
+}
+main{
+    margin: 0 3.5%;
+    box-sizing: border-box;
+}
+.decorationN{
+    text-decoration: none;
+}
+.bordurenone{
+    border: none;
+}
+.margesite{
+    margin-left: 20px;
+}
+.display{
+    display: flex;
+}
+.buttonsearch-mobile{
+    display: none;
+}
+.adisp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+/* 
+~~~~~~~~~~~~
+COLOR
+~~~~~~~~~~~~ 
+*/
+.bleu{
+    color: #0065FC;
+}
+.gris{
+    color: #f2f2f2;
+}
+.bgbleu{
+    background-color: #0065FC;
+}
+.bgbleuclair{
+    background-color: #deebff;
+}
+.bggris{
+    background-color: #f2f2f2;
+}
+.bold{
+    font-weight: bold;
+}
+/* 
+~~~~~~~~~~~~
+NAV
+~~~~~~~~~~~~ 
+*/
+.sizeNav{
+    height: 100px;
+}
+.sizeLien{
+    width: 25%;
+}
+.sizeLiens{
+    width: 140px;
+    height: 99px;
+}
+.Navborree{
+    border-top: 1px solid transparent;
+}
+.Navborree:hover {
+    border-top: 1px solid #0065FC;
+    cursor: pointer;
+}
+/* 
+~~~~~~~~~~~~
+LOGO
+~~~~~~~~~~~~ 
+*/
+.margelogo{
+    margin-bottom: 10px;
+}
+
+/* 
+~~~~~~~~~~~~
+TEXTE
+~~~~~~~~~~~~ 
+*/
+.textsize{
+    font-size: 30px;
+    font-weight: bold;
+}
+.soustextsize{
+    font-size: 14px;
+}
+/* 
+~~~~~~~~~~~~
+HEADER RECHERCHE
+~~~~~~~~~~~~ 
+*/
+.searchbordure{
+    width: 400px;
+    border-radius: 10px;
+}
+.sizeI{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 0 0 10px;
+}
+.recherche{
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.margsearch{
+    padding-left: 20px;
+}
+.buttonsearch{
+    height: 50px;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+}
+.buttonsearch:hover {
+    transform: scale(1.05);
+}
+/* 
+~~~~~~~~~~~~
+INFO
+~~~~~~~~~~~~ 
+*/
+.infos {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.infos i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    padding: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    border: 1px solid #F2F2F2;
+    margin-right: 10px;
+    font-size: 11px;
+}
+
+.infos span{
+    font-size: 14px;
+}
+/* 
+~~~~~~~~~~~~
+FILTRE
+~~~~~~~~~~~~ 
+*/
+.filtres{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.margfiltre{
+    display: flex;
+    margin-block-end: 0;
+    align-items: center;
+    justify-content: center;
+}
+.filtre{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+    margin-top: 20px;
+    border: 2px solid var(--clr-light-grey);
+    border-radius: 50px;
+}
+.filtre i {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    color: blue;
+    padding: 15px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: #DEEBFF;
+}
+.filtretext{
+    border: 2px solid #F2F2F2;
+    height: 40px;
+    width: 12%;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+.filtre:hover {
+    transform: scale(1.1);
+}
+.maringI{
+    
+}
+.padding-left{
+    margin-left: 10px;
+}
+.padding-left2{
+    margin-left: 20px;
+}
+/* 
+~~~~~~~~~~~~
+HEBERGEMENT
+~~~~~~~~~~~~ 
+*/
+.sizehebergement{
+    height: 640px;
+    width: 65%;
+    margin-right: 20px;
+    border-radius: 25px;
+    background-color: #f2f2f2;
+    padding-right: 35px;
+}
+.encadrement{
+    margin-bottom: 20px;
+    width: 80%;
+    height: 80%;
+    border: white 4px solid;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: var(--clr-light-grey);
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    margin-left: 35px;
+    margin-top: 10px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.encadrement:hover{
+    transform: scale(1.05);
+}
+.imgh1{
+    object-fit: cover;
+    width: 100%;
+    height: 110px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.encadrement-detail{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 4px 10px;
+}
+.encadrement-detail h3 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.encadrement-detail span {
+    font-weight: bolder;
+}
+.encadrement-detail p{
+    font-size: 15px;
+}
+.etoile-encadrement{
+
+}
+.margh{
+    margin-left: 35px;
+    margin-top: 35px;
+}
+.encadrement-text{
+    font-size: 20px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+/* 
+~~~~~~~~~~~~
+POPULAIRE
+~~~~~~~~~~~~ 
+*/
+.sizepopulaire{
+    width: 28%;
+    padding: 30px;
+    border-radius: 25px;
+    height: 580px;
+    background-color: #F2F2F2;
+}
+.populaire{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    border: var(--clr-light-blue) 1px solid;
+    background-color: white;
+    padding: 5px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.populaire:hover{
+    transform: scale(1.05);
+}
+.imgh2{
+    object-fit: cover;
+    width: 45%;
+    height: 110px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.populaire-detail h3{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.populaire-detail p{
+    margin-left: 10px;
+    font-size: 15px;
+}
+.populaire-detail span {
+    font-weight: bolder;
+}
+.etoile-populaire {
+    font-size: 11px;
+    margin-left: 10px;
+}
+/* 
+~~~~~~~~~~~~
+ACTIVITE
+~~~~~~~~~~~~ 
+*/
+.Activites{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.activite{
+    width: 100%;
+    height: 600px;
+}
+.activite23456{
+    width: 23%;
+    height: 500px;
+}
+.flexccentre{
+
+}
+.flexcbtw{
+
+}
+.titreactivite{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5%;
+    width: 95%;
+}
+.regletitre{
+    height: 70px;
+}
+.border-activite2356{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.margimage{
+    margin-top: 50px;
+}
+.border-activite:hover{
+    transform: scale(1.05);
+}
+.border-activite2356:hover{
+    transform: scale(1.05);
+}
+/* 
+~~~~~~~~~~~~
+IMG 1
+~~~~~~~~~~~~ 
+*/
+.imgactivite1{
+    object-fit: cover;
+    width: 100%;
+    height: 420px;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+/* 
+~~~~~~~~~~~~
+IMG 2
+~~~~~~~~~~~~ 
+*/
+.imgactivite2{
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+/* 
+~~~~~~~~~~~~
+IMG 3
+~~~~~~~~~~~~ 
+*/
+.border-activite{
+    width: 23%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.imgactivite3{
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+/* 
+~~~~~~~~~~~~
+FOOTER
+~~~~~~~~~~~~ 
+*/
+.footer{
+    margin-top: 100px;
+    display: flex;
+}
+.taileblock{
+    flex: 1;
+}
+
+.margintext{
+   padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: initial;
+}

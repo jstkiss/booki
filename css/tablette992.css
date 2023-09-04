@@ -1,0 +1,39 @@
+@media (max-width: 992px) {
+    .logo{
+
+    }
+    .sizeLien{
+        width:  100%;
+    }
+    .filtre{
+        width: auto;
+        margin: 20px 4px 10px;
+    }
+    .filtres{
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .sizehebergement{
+        padding: 0;
+    }
+    .navbor{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        WIDTH: 100%;
+    }
+    .imgactivite1{
+        border-radius: 0;
+    }
+    .border-activite{
+        border-radius: 20px;
+    }
+    .adisp{
+        display: block
+    }
+    .imgactivite1{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+}
